@@ -46,7 +46,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   void checkNavigation() async {
-    await Future.delayed(Duration(seconds: 3));
+    await Future.delayed(Duration(seconds:4 ));
 
     SharedPreferences prefs = await SharedPreferences.getInstance();
 
